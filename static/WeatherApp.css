@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+*{
+    font-family:  'Autour One', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./assets/images/sunny-weather-background.png');
+}
+img{
+    content: url('./assets/weather_icons/clear sky.png');
+}
+.weather{
+    display: flex;
+    justify-content: space-around;
+}
+.weatherBox,
+.weatherBox2{
+    width: 90%;
+    max-width: 650px;
+    background-color: white;
+    padding: 40px 40px;
+    margin: 100px auto 0;
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+}
+.topBar{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 15px;
+}
+.name,
+.time{
+    padding: 10px;
+    padding-top: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.time{
+    padding-left: 30px;
+    padding-right: 50px;
+    border-left: solid white 1px;
+}
+.name{
+    padding-right: 30px;
+    padding-left: 50px;
+    border-right: solid white 1px;
+}
+.searchBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 12px;
+}
+.searchBar input{
+    flex: 1;
+    padding: 15px 15px;
+    height: 50px;
+    border: 0;
+    margin-right: 15px;
+    outline: 0;
+    border-radius: 30px;
+}
+.searchBar button{
+    border-radius: 50%;
+    padding: 17px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.heading1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+.icon1{
+    height: 100px;
+    padding-top: 15px;
+}
+.feel{
+    padding-bottom: 10px;
+}
+.extra{
+    border: solid black 3px;
+    padding: 19px;
+}
+.detail1,
+.detail2,
+.detail3,
+.detail4{
+    padding-bottom: 10px;
+    border-bottom: solid black 0.6px;
+    padding-top: 10px;
+}
+.detail5{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.weatherStatus{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: x-large;
+}
