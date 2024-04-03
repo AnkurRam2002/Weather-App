@@ -1,4 +1,4 @@
-import { apiKey } from './Key.js'
+const apiKey = '31fd47765ed0db7cb66a1ff869b444c1';
 
 let citySearch = document.querySelector('.searchBar input');
 let  cityName = document.querySelector('.searchBar input').value;
